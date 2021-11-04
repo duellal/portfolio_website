@@ -6,13 +6,15 @@
     <a href="https://docs.google.com/document/d/e/2PACX-1vQXqcpBmogmYxzdWDyFVSgJa9IWZpmJMYPfiG9U3OSBHfXR9edoZeswjbBEvVWuG31Gfemmy11Dbo8Z/pub" target="blank">Resume</a>
     <a href="">Email</a>
   </div>
+  <Projects />
 </template>
 
 <script>
-
+import Projects from './components/Projects.vue'
 export default {
   name: 'Portfolio',
   components: {
+    Projects,
   },
   data: () => {
     return {
